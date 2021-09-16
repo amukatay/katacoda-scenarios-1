@@ -1,7 +1,7 @@
 {
     "scenarios": [
         {
-            "title": "Prometheus Client1",
+            "title": "Prometheus Client",
             "description": "Prometheus Client",
             "id": "prometheus-client"
         },
@@ -13,7 +13,7 @@
         {
             "title": "Prometheus Client Full",
             "description": "Prometheus Client Full",
-            "id": "prometheus-client-full1"
+            "id": "prometheus-client-full"
         },
         {
             "title": "Istio example",
