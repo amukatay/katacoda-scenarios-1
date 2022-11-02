@@ -1,6 +1,8 @@
 Теперь давайте запустим Prometheus. Prometheus - это система мониторинга с открытым кодом, работающая по pull-модели сбора метрик. Prometheus также предоставляет возможность запрашивать данные с помощью языка запросов PromQL. 
 
 Теперь <a href="https://ya.ru" target="_blank">яндекс</a> живет на которой ссылке
+Теперь <a href="https://ya.ru" target="blank">яндекс2</a> живет на которой ссылке
+Теперь <a href="https://ya.ru">яндекс3</a> живет на которой ссылке
 
 Prometheus написан на go и распространяется в виде бинарного запускаемого файла. Чтобы запустить Prometheus достаточно запустить исполняемый файл и передать ему конфигурацию. 
 
@@ -48,7 +50,7 @@ docker run -d --net=host --name=prometheus \
    --web.external-url=http://127.0.0.1/$(cat /usr/local/etc/sbercode-prefix)-9090/
 ```{{execute}}
 
-Проверить, работает ли Prometheus можно зайдя по ссылке на его дашборд. Дашборд Prometheus доступен [здесь](https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/)
+Проверить, работает ли Prometheus можно зайдя по ссылке на его дашборд. Дашборд Prometheus доступен <a href="https://[[HOST_SUBDOMAIN]]-9090-[[KATACODA_HOST]].environments.katacoda.com/" target="_blank">здесь</a>
 
 Если зайти в раздел Status -> Targets, то там мы увидим список задач и таргетов: одну задачу app и один таргет в ней `http://localhost:8000/metrics` . Ровно так, как у нас было в конфиге. После первого скрейпа состояние таргета изменится с UNKNOWN на DOWN, потому что в нашем сервисе еще не реализован эндпоинт, который бы отдавал метрики. 
 
