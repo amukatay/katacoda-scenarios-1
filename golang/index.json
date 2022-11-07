@@ -30,9 +30,7 @@
     "load": [
         {
             "author": "valex1984",
-            "scenario": "golang",
-            "required": false,
-            "failMessage": "Не найдены необходимые файлы из упражнения по openfaas"
+            "scenario": "golang"
         }
     ],
     "save": true,
