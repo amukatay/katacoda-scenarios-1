@@ -2,8 +2,6 @@
 
 Теперь <a href="https://ya.ru" target="_blank">яндекс</a> живет на которой ссылке
 
-Теперь <a href="https://ya.ru" target="blank">яндекс2</a> живет на которой ссылке
-
 Теперь <a href="https://ya.ru" target="_blank"></a> живет на которой ссылке
 
 
