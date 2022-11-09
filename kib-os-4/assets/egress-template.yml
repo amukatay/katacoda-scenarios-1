@@ -1,54 +1,42 @@
 apiVersion: template.openshift.io/v1
 kind: Template
 metadata:
-  name: ingressgateway-template
+  name: egressgateway-template
 objects:
   - apiVersion: apps/v1
     kind: Deployment
     metadata:
       labels:
-        app: ${INGRESS_NAME}
+        app: ${EGRESS_NAME}
         app.kubernetes.io/component: gateways
         app.kubernetes.io/instance: ${CONTROL_PLANE}
         app.kubernetes.io/name: gateways
         app.kubernetes.io/part-of: istio
         chart: gateways
         heritage: Tiller
-        istio: ${INGRESS_NAME}
+        istio: ${EGRESS_NAME}
         maistra-version: 2.1.0
         release: istio
         marker: practice
-      name: ${INGRESS_NAME}
+      name: ${EGRESS_NAME}
     spec:
       progressDeadlineSeconds: 1200
       revisionHistoryLimit: 0
       selector:
         matchLabels:
-          app: ${INGRESS_NAME}
-          istio: ${INGRESS_NAME}
+          app: ${EGRESS_NAME}
+          istio: ${EGRESS_NAME}
       template:
         metadata:
           annotations:
             sidecar.istio.io/inject: "false"
           labels:
-            app: ${INGRESS_NAME}
+            app: ${EGRESS_NAME}
             chart: gateways
             heritage: Tiller
-            istio: ${INGRESS_NAME}
+            istio: ${EGRESS_NAME}
             release: istio
         spec:
-          affinity:
-            podAntiAffinity:
-              preferredDuringSchedulingIgnoredDuringExecution:
-                - podAffinityTerm:
-                    labelSelector:
-                      matchExpressions:
-                        - key: app
-                          operator: In
-                          values:
-                            - ${INGRESS_NAME}
-                    topologyKey: kubernetes.io/hostname
-                  weight: 1
           containers:
             - resources:
                 limits:
@@ -148,9 +136,6 @@ objects:
                   protocol: TCP
               imagePullPolicy: Always
               volumeMounts:
-                - mountPath: /etc/istio/ingress-certs
-                  name: ingress-certs
-                  readOnly: true
                 - name: istiod-ca-cert
                   mountPath: /var/run/secrets/istio
                 - name: istio-data
@@ -173,7 +158,7 @@ objects:
                 - '--proxyComponentLogLevel=misc:error'
                 - '--log_output_level=default:info'
                 - '--serviceCluster'
-                - ${INGRESS_NAME}
+                - ${EGRESS_NAME}
                 - '--trust-domain=cluster.local'
           volumes:
             - name: istio-envoy
@@ -229,14 +214,10 @@ objects:
                       items:
                         - key: service-ca.crt
                           path: service-ca.crt
-            - name: ingress-certs
-              secret:
-                defaultMode: 256
-                secretName: ingress-certs
   - apiVersion: v1
     kind: ConfigMap
     metadata:
-      name: ingress-config
+      name: egress-config
       labels:
         app.kubernetes.io/component: istio-discovery
         app.kubernetes.io/instance: ${CONTROL_PLANE}
@@ -278,9 +259,9 @@ objects:
         enableEnvoyAccessLogService: false
         enablePrometheusMerge: false
         enableTracing: true
-        ingressClass: istio
-        ingressControllerMode: STRICT
-        ingressService: istio-ingressgateway
+        egressClass: istio
+        egressControllerMode: STRICT
+        egressService: istio-egressgateway
         localityLbSetting:
           enabled: true
         outboundTrafficPolicy:
@@ -296,9 +277,9 @@ objects:
   - kind: Service
     apiVersion: v1
     metadata:
-      name: ${INGRESS_NAME}
+      name: ${EGRESS_NAME}
       labels:
-        app: ${INGRESS_NAME}
+        app: ${EGRESS_NAME}
         marker: practice
     spec:
       ports:
@@ -307,12 +288,12 @@ objects:
         - name: https-3001
           port: 3001
       selector:
-        app: ${INGRESS_NAME}
-        istio: ${INGRESS_NAME}
+        app: ${EGRESS_NAME}
+        istio: ${EGRESS_NAME}
 parameters:
   - name: PROJECT_NAME
     required: true
   - name: CONTROL_PLANE
     required: true
-  - name: INGRESS_NAME
+  - name: EGRESS_NAME
     required: true

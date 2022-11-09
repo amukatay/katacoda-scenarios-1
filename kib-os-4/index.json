@@ -1,7 +1,7 @@
 {
-  "pathwayTitle": "Настройка входящих соединений",
-  "title": "Настройка входящих соединений",
-  "description": "Настройка входящих соединений",
+  "pathwayTitle": "Настройка исходящих TCP соединений на примере подключения к БД PostgreSQL",
+  "title": "Настройка исходящих TCP соединений на примере подключения к БД PostgreSQL",
+  "description": "Настройка исходящих TCP соединений на примере подключения к БД PostgreSQL",
   "difficulty": "beginner",
   "time": "30 minutes",
   "details": {
@@ -11,24 +11,12 @@
         "text": "step0.md"
       },
       {
-        "title": "Простая реализация - HTTP соединение без Ingress Proxy",
+        "title": "Настройка Egress Gateway",
         "text": "step1.md"
       },
       {
-        "title": "Подготовка к настройке TLS",
+        "title": "Настройка соединения",
         "text": "step2.md"
-      },
-      {
-        "title": "Настройка Ingress Gateway",
-        "text": "step3.md"
-      },
-      {
-        "title": "Настройка Simple TLS",
-        "text": "step4.md"
-      },
-      {
-        "title": "Настройка Mutual TLS",
-        "text": "step5.md"
       }
     ],
     "intro": {
@@ -40,43 +28,36 @@
     "assets": {
       "host01": [
         {
-          "file": "easy.yml",
+          "file": "postgresql.yml",
+          "target": "/usr/local/pg"
+        },
+        {
+          "file": "connection.env",
+          "target": "/usr/local/pg"
+        },
+        {
+          "file": "connection.yml",
           "target": "/root"
         },
         {
-          "file": "easy-params.env",
+          "file": "postgresql.sh",
+          "target": "/usr/local/autostart-scripts.d",
+          "chmod": "+x"
+        },
+        {
+          "file": "postgresql-client.yml",
+          "target": "/usr/local/pg"
+        },
+        {
+          "file": "egress-template.yml",
           "target": "/root"
         },
         {
-          "file": "ingress-params.env",
+          "file": "egress-params.env",
           "target": "/root"
         },
         {
-          "file": "ingress-template.yml",
-          "target": "/root"
-        },
-        {
-          "file": "mutual.yml",
-          "target": "/root"
-        },
-        {
-          "file": "mutual-params.env",
-          "target": "/root"
-        },
-        {
-          "file": "req.cnf",
-          "target": "/root/certs"
-        },
-        {
-          "file": "server.yml",
-          "target": "/root"
-        },
-        {
-          "file": "simple.yml",
-          "target": "/root"
-        },
-        {
-          "file": "simple-params.env",
+          "file": "connection.yml",
           "target": "/root"
         }
       ]
@@ -97,6 +78,11 @@
       "serviceAccountNameInProject": "student",
       "clusterRoleNameForBinding": "admin",
       "projects": [
+        {
+          "name": "infra",
+          "displayName": "infra",
+          "description": "Проект для окружения - экземпляр БД PostgreSQL"
+        },
         {
           "name": "work",
           "displayName": "work",
