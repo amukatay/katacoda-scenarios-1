@@ -29,8 +29,8 @@
     },
     "load": [
         {
-            "author": "valex1984",
-            "scenario": "golang"
+            "author": "abermukatay",
+            "scenario": "istio-example"
         }
     ],
     "save": true,
