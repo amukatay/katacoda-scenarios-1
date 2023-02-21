@@ -20,8 +20,7 @@
         "hidefinish": true,
         "hideHiddenFiles": true,
         "uilayout": "editor-terminal",
-        "uisettings": "javascript",
-        "uieditorpath": "/root/example"
+        "uisettings": "javascript"
     },
     "backend": {
         "imageid": "kubernetes-cluster-running:1.18"
