@@ -1,7 +1,6 @@
 # Работа с файлами
 
 При работе редактором вы можете вставлять текст ( в том числе в начало или конец файла), а также заменять его.
-You can replace, prepend, append, and insert text into an open editor file.
 
 Функция замены всего текста в файле, если файл пустой то текст просто вставится:
 
@@ -42,7 +41,6 @@ You can replace, prepend, append, and insert text into an open editor file.
 </pre>
 
 Функция замены части текста в файле. В этом примере мы заменим часть строки "Это еще одна строка".
-Using the `data-target="insert"` attribute you can instruct the editor to insert the text in a particular position marked by `data-marker` attribute.
 
 <pre class="file" data-filename="file.txt" data-target="insert" data-marker="Это еще одна">
 Мы заменили часть строки, оставив только слово 
