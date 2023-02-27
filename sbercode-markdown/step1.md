@@ -7,7 +7,7 @@
 </pre>
 
 
-Так выглядит Markdown для замены всего текста в файле:
+Так выглядит Markdown для замены всего текста в файле, это поведение определеяется маркером data-target="replace":
 
 <pre>
 &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;replace&#x22;&#x3E;Замена всего текста в файле
@@ -21,7 +21,7 @@
 </pre>
 
 
-Так выглядит Markdown для вставки текста в начало файла:
+Так выглядит Markdown для вставки текста в начало файла, это поведение определеяется маркером data-target="prepend":
 
 <pre>
 &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;prepend&#x22;&#x3E;Вставка текста в начало файла
@@ -34,7 +34,7 @@
 </pre>
 
 
-Так выглядит Markdown для вставки текста в конец файла:
+Так выглядит Markdown для вставки текста в конец файла, это поведение определеяется маркером data-target="append":
 
 <pre>
 &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;append&#x22;&#x3E;Вставка текста в конец файла
@@ -48,7 +48,7 @@
 </pre>
 
 
-Так выглядит Markdown для замены текста в файле:
+Так выглядит Markdown для замены текста в файле это поведение определеяется маркером data-target="insert", заменяемый текст нужно поместить в data-marker:
 
 <pre>
 &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;insert&#x22; data-marker=&#x22;Это еще одна&#x22;&#x3E;
