@@ -1,3 +1,14 @@
+## Работа с картинками
+Вы можете добавлять картинки в упражнение, для этого нужно положить их в папку assets:
+![App_](./assets/Example.jpg)
+
+Markdown для вставки картинок:
+
+<pre>
+![App_](./assets/Example.jpg)
+</pre>
+
+
 ## Работа с видео
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/syrGPPekLHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
