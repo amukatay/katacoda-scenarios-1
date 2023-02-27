@@ -23,6 +23,6 @@
         "uisettings": "javascript"
     },
     "backend": {
-        "imageid": "kubernetes-cluster-running:1.18"
+        "imageid": "golang"
     }
 }
