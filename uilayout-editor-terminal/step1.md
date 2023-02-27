@@ -6,6 +6,7 @@
 Это еще одна строка
 </pre>
 
+
 Так выглядит Markdown для замены всего текста в файле:
 
 <pre>
@@ -19,6 +20,7 @@
 <pre class="file" data-filename="file.txt" data-target="prepend">Вставка текста в начало файла
 </pre>
 
+
 Так выглядит Markdown для вставки текста в начало файла:
 
 <pre>
@@ -30,6 +32,7 @@
 
 <pre class="file" data-filename="file.txt" data-target="append">Вставка текста в конец файла
 </pre>
+
 
 Так выглядит Markdown для вставки текста в конец файла:
 
@@ -44,6 +47,7 @@
 Мы заменили часть строки, оставив только слово 
 </pre>
 
+
 Так выглядит Markdown для замены текста в файле:
 
 <pre>
@@ -55,7 +59,7 @@
 Также вы можете просто открыть файл для работы в редакторе
 `file2.txt`{{open}}
 
+
 Markdown для открытия файла:
 <pre>`file2.txt`{{open}}</pre>
 
-Дашборд Prometheus доступен [здесь](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)
