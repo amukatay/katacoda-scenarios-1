@@ -1,1 +1,1 @@
-When the scenario starts, additional commands can be executed in the foreground or background.
+В этом упражнении рассмотрим синтаксис дополнительных команд Markdown, используемых в SberCode Academy.
