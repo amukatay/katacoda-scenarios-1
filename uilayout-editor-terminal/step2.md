@@ -35,7 +35,7 @@ Markdown для копирования текста:
 `Привет`{{copy}}
 </pre>
 
-
+***
 Также Sbercode умеет копировать несколько строк сразу:
 
 <pre data-target="clipboard">
