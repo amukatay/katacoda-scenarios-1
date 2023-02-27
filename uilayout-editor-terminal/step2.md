@@ -1,12 +1,11 @@
-# Работа с видео
+## Работа с видео
 
-Для вставки видео используется стандартный iframe:
-<iframe width="480" height="270" src="https://rutube.ru/play/embed/fb1b0c7197391bf97f5db729b4a02ca9" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>  
+<iframe width="480" height="270" src="https://www.youtube.com/embed/syrGPPekLHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Так выглядит Markdown для замены всего текста в файле:
+Для вставки видео (Youtube, Rutube и др.) используется стандартный iframe:
 
 <pre>
-<iframe width="480" height="270" src="https://rutube.ru/play/embed/fb1b0c7197391bf97f5db729b4a02ca9" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/syrGPPekLHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </pre>
 Функция вставки текста в начало файла:
 
