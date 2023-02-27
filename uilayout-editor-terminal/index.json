@@ -15,12 +15,12 @@
         "intro": {
             "text": "intro.md",
             "credits": ""
-        }
+        },
+        "assets": {
+             "host01": [
+                 {"file": "server.go", "target": "/root"}
+             ]
     },
-    "assets": {
-         "host01": [
-             {"file": "server.go", "target": "/root"}
-         ]
     },
     "files": [
         "file.txt", "file2.txt"
