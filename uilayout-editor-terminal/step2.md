@@ -9,7 +9,7 @@ Markdown для вставки картинок:
 <pre>
 ![App_](./assets/Example.jpg)
 </pre>
-
+  
   
 ## Работа с видео
 
