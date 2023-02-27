@@ -1,6 +1,6 @@
 {
-    "title": "Scenario with Editor Terminal UI",
-    "description": "Katacoda Scenario Example",
+    "title": "sbercode-markdown-extensions",
+    "description": "Дополнительные команды Markdown в SberCode",
     "details": {
         "steps": [
             {
@@ -17,8 +17,7 @@
             }
         ],
         "intro": {
-            "text": "intro.md",
-            "credits": ""
+            "text": "intro.md"
         },
         "assets": {
             "host01": [
@@ -30,8 +29,6 @@
         "file.txt", "file2.txt"
     ],
     "environment": {
-        "hidefinish": true,
-        "hideHiddenFiles": true,
         "uilayout": "editor-terminal",
         "uisettings": "javascript"
     },
