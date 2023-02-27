@@ -9,6 +9,6 @@ func (m msg) ServeHTTP(resp http.ResponseWriter, req *http.Request) {
 }
 func main() {
     msgHandler := msg("Добро пожаловать в SberCode Academy")
-    fmt.Println("Вебсервер запущен. Для остановки сервера нажмите CTRL+C")
+    fmt.Println("Веб-сервер запущен. Для остановки сервера нажмите CTRL+C")
     http.ListenAndServe("localhost:80", msgHandler)
 }
