@@ -59,3 +59,5 @@
 
 Markdown для открытия файла:
 <pre>`file2.txt`{{open}}</pre>
+
+Дашборд Prometheus доступен [здесь](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)
