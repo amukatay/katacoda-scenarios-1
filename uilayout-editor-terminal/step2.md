@@ -20,16 +20,37 @@ Markdown для вставки картинок:
 <pre>
 <iframe width="480" height="270" src="https://www.youtube.com/embed/syrGPPekLHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </pre>
-Функция вставки текста в начало файла:
 
-<pre class="file" data-filename="file.txt" data-target="prepend">Вставка текста в начало файла
-</pre>
 
-Так выглядит Markdown для вставки текста в начало файла:
+## Буфер обмена
+
+Копирование текста в буфер обмена:
+
+Привет{{copy}}
+
+
+Markdown для копирования текста:
 
 <pre>
-&#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;prepend&#x22;&#x3E;Вставка текста в начало файла
-&#x3C;/pre&#x3E;
+Привет{{copy}}
+</pre>
+
+
+Также Sbercode умеет копировать несколько строк сразу:
+
+<pre data-target="clipboard">
+Привет мир!
+Хорошего дня!
+</pre>
+
+
+Так выглядит Markdown для копирования нескольких строк:
+
+<pre>
+<pre data-target="clipboard">
+Привет мир!
+Хорошего дня!
+</pre>
 </pre>
 
 Функция вставки текста в конец файла:
