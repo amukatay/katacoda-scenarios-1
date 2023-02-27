@@ -1,14 +1,3 @@
-# Работа с видео
-
-Для вставки видео используется стандартный iframe:
-<iframe width="480" height="270" src="https://rutube.ru/play/embed/fb1b0c7197391bf97f5db729b4a02ca9" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>  
-
-Так выглядит Markdown для замены всего текста в файле:
-
-<pre>
-<iframe width="480" height="270" src="https://rutube.ru/play/embed/fb1b0c7197391bf97f5db729b4a02ca9" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</pre>
-
 Функция вставки текста в начало файла:
 
 <pre class="file" data-filename="file.txt" data-target="prepend">Вставка текста в начало файла
