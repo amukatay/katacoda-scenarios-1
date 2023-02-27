@@ -1,24 +1,22 @@
-## Работа с картинками
+## Отображение ссылки для открытия в iframe
 
-Вы можете добавлять картинки в упражнение, для этого нужно положить их в папку assets:
+SberCode по умолчанию открывает ссылки в секции Внешние ресурсы, используя iframe. Например, ссылка на [Яндекс](https://ya.ru/).
 
-![App_](./assets/Example.jpg)
 
-Markdown для вставки картинок:
-
+Markdown для вставки ссылки:
 <pre>
-![App_](./assets/Example.jpg)
+[Яндекс](https://ya.ru/)
 </pre>
   
   
-## Работа с видео
+## Отображение ссылки для открытия в новой вкладке браузера
 
-<iframe width="480" height="270" src="https://www.youtube.com/embed/syrGPPekLHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Некоторые сайты не поддерживают открытие через iframe. В этом случае можно сформировать ссылку на <a href="https://ya.ru" target="_blank">Яндекс</a>, которая откроется в новой вкладке браузера.
 
-Для вставки видео (Youtube, Rutube и др.) используется стандартный iframe:
 
+Markdown:
 <pre>
-<iframe width="480" height="270" src="https://www.youtube.com/embed/syrGPPekLHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<a href="https://ya.ru" target="_blank">Яндекс</a>
 </pre>
 
 
