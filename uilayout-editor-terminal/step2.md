@@ -47,7 +47,7 @@ Markdown для копирования текста:
 Так выглядит Markdown для копирования нескольких строк:
 
 <pre>
-<pre data-target="clipboard">
+&#x3C;pre data-target=&#x22;clipboard&#x22;&#x3E;
 Привет мир!
 Хорошего дня!
 &#x3C;/pre&#x3E;
