@@ -17,9 +17,10 @@
             "credits": ""
         },
         "assets": {
-             "host01": [
-                 {"file": "server.go", "target": "/root"}
-             ]
+            "host01": [
+                {"file": "server.go", "target": "/root"}
+            ]
+          }
     },
     },
     "files": [
