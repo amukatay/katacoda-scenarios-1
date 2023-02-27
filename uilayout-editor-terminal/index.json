@@ -4,8 +4,12 @@
     "details": {
         "steps": [
             {
-                "text": "step1.md",
-                "code": "setup.sh"
+                "title": "Работа с файловым редактором",
+                "text": "step1.md"
+            },
+            {
+                "title": "Другие возможности SberCode",
+                "text": "step2.md"
             }
         ],
         "intro": {
