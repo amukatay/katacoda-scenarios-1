@@ -4,8 +4,8 @@
     "description": "Istio example",
     "difficulty": "beginner",
     "time": "30 minutes",
-    "details": {
-        "step": [
+    "detail": {
+        "steps": [
             {
                 "title": "Cоздаем объекты кубернетис и запускаем prometheus",
                 "text": "step0.md"
