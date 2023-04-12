@@ -21,13 +21,13 @@
         },
         "assets": { },
         "finish": {
-            "text": "finish0.md"
+            "text": "finish.md"
         }
     },
     "files": [
-        "istio-gateway0.yaml"
+        "istio-gateway.yaml"
     ],
-    "environments": {
+    "environment": {
         "showdashboard": true,
         "dashboards": [{"name": "Prometheus", "port": 80}],
         "uilayout": "editor-terminal",
