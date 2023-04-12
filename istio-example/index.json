@@ -1,10 +1,10 @@
 {
-    "pathwayTitle": "Istio example",
-    "title": "Istio example",
-    "description": "Istio example",
-    "difficulty": "beginner",
-    "time": "30 minutes",
-    "detail": {
+    "pathwayTitles": "Istio example",
+    "titles": "Istio example",
+    "descriptions": "Istio example",
+    "difficultys": "beginner",
+    "times": "30 minutes",
+    "details": {
         "steps": [
             {
                 "title": "Cоздаем объекты кубернетис и запускаем prometheus",
