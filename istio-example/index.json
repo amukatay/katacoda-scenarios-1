@@ -16,7 +16,7 @@
             }
         ],
         "intro": {
-            "text": "intr.md",
+            "text": "step0.md",
             "credits": ""
         },
         "assets": { },
