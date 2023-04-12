@@ -5,10 +5,10 @@
     "difficulty": "beginner",
     "time": "30 minutes",
     "details": {
-        "steps": [
+        "step": [
             {
                 "title": "Cоздаем объекты кубернетис и запускаем prometheus",
-                "text": "step0.md
+                "text": "step0.md"
             },
             {
                 "title": "Создаем объекты istio и получаем доступ к интерфейсу",
