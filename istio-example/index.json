@@ -16,7 +16,7 @@
             }
         ],
         "intro": {
-            "text": "step0.md",
+            "text": "intro.md",
             "credits": ""
         },
         "assets": { },
@@ -27,7 +27,7 @@
     "files": [
         "istio-gateway0.yaml"
     ],
-    "environment": {
+    "environments": {
         "showdashboard": true,
         "dashboards": [{"name": "Prometheus", "port": 80}],
         "uilayout": "editor-terminal",
