@@ -15,19 +15,19 @@
                 "text": "step1.md"
             }
         ],
-        "intros": {
+        "intro": {
             "text": "intro.md",
             "credits": ""
         },
-        "assetss": { },
-        "finishs": {
+        "assets": { },
+        "finish": {
             "text": "finish.md"
         }
     },
-    "filess": [
+    "files": [
         "istio-gateway.yaml"
     ],
-    "environment": {
+    "environments": {
         "showdashboard": true,
         "dashboards": [{"name": "Prometheus", "port": 80}],
         "uilayout": "editor-terminal",
