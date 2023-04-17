@@ -7,8 +7,8 @@
     "details": {
         "steps": [
             {
-                "title": true,
-                "text": "step0.md"
+                "title": "123",
+                "text": true
             },
             {
                 "title": "Создаем объекты istio и получаем доступ к интерфейсу",
