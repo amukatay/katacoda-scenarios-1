@@ -1,6 +1,6 @@
 {
     "pathwayTitle": "Istio example",
-    "title": "123",
+    "title": true,
     "description": "Istio example",
     "difficulty": "beginner",
     "time": "30 minutes",
