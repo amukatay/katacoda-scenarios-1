@@ -3,11 +3,11 @@
     "title": "Istio example",
     "description": "Description",
     "difficulty": "123",
-    "time": true,
+    "time": "123",
     "details": {
         "steps": [
             {
-                "title": "Cоздаем объекты кубернетис и запускаем prometheus",
+                "title": true,
                 "text": "step0.md"
             },
             {
