@@ -7,8 +7,8 @@
     "details": {
         "steps": [
             {
-                "titles": "Cоздаем объекты кубернетис и запускаем prometheus",
-                "texts": "step0.md"
+                "title": "Cоздаем объекты кубернетис и запускаем prometheus",
+                "text": "step0.md"
             },
             {
                 "title": "Создаем объекты istio и получаем доступ к интерфейсу",
