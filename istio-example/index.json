@@ -8,23 +8,23 @@
         "steps": [
             {
                 "title": "Cоздаем объекты кубернетис и запускаем prometheus",
-                "text": "step00.md"
+                "text": "step0.md"
             },
             {
                 "title": "Создаем объекты istio и получаем доступ к интерфейсу",
                 "text": "step1.md"
             }
         ],
-        "intro": {
+        "intros": {
             "text": "intro.md",
             "credits": ""
         },
-        "assets": { },
-        "finish": {
+        "assetss": { },
+        "finishs": {
             "text": "finish.md"
         }
     },
-    "files": [
+    "filess": [
         "istio-gateway.yaml"
     ],
     "environment": {
