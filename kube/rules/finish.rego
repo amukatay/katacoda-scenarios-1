@@ -1,4 +1,4 @@
-ssdd
+package sbercode
 
 allow[msg] {
 	res := input.results[_]
@@ -50,4 +50,4 @@ deny[msg] {
 
 error[msg] {
 	msg := input.error
-}
+
