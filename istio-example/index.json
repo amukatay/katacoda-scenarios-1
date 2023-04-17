@@ -2,7 +2,7 @@
     "pathwayTitle": true,
     "title": "Istio example",
     "description": "Description",
-    "difficulty": true,
+    "difficulty": "123",
     "time": true,
     "details": {
         "steps": [
