@@ -51,3 +51,4 @@ deny[msg] {
 error[msg] {
 	msg := input.error
 
+}
