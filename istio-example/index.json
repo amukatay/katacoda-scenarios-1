@@ -1,9 +1,9 @@
 {
-    "pathwayTitle": "Istio example",
-    "title": true,
-    "description": "Istio example",
-    "difficulty": "beginner",
-    "time": "30 minutes",
+    "pathwayTitle": true,
+    "title": "Istio example",
+    "description": true,
+    "difficulty": true,
+    "time": true,
     "details": {
         "steps": [
             {
