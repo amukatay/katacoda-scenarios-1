@@ -16,7 +16,7 @@
             }
         ],
         "intro": {
-            "text": "intro.md"
+            "text": "intr.md"
         },
         "assets": { },
         "finish": {
@@ -35,8 +35,8 @@
     },
     "load": [
         {
-            "authors": "abermukatay",
-            "scenarios": "istio-example"
+            "author": "abermukatay",
+            "scenario": "istio-example"
         }
     ],
     "save": true,
