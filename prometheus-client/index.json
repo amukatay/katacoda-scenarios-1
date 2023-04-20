@@ -5,7 +5,20 @@
     "difficulty": "beginner",
     "time": "30 minutes",
     "details": {
-        "steps": true,
+        "steps": [
+            {
+                "title": "Создать приложение",
+                "text": "step0.md"
+            },
+            {
+                "title": "Контейнеризовать приложение",
+                "text": "step1.md"
+            },
+            {
+                "title": "Запустить приложение",
+                "text": "step2.md"
+            }
+        ],
         "intro": {
             "text": "intro.md",
             "background": "courseBase.sh",
