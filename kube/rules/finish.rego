@@ -1,4 +1,4 @@
-package sbercode
+ackage sbercode
 
 allow[msg] {
 	res := input.results[_]
