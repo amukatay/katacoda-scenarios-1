@@ -70,16 +70,16 @@
           "name": "adm",
           "displayName": "adm",
           "description": "This is project for demo adm privs on ui",
-          "uiRoles": "admin"
+          "uiRole": "admin"
         },
         {
           "name": "work",
           "displayName": "work",
           "description": "This is project for exercise workloads",
           "uiRole": "view",
-          "inServiceMeshControlPlanes": {
-              "name": "basic",
-              "namespace": "istio-system"
+          "inServiceMeshControlPlane": {
+              "names": "basic",
+              "namespaces": "istio-system"
           }
         }
       ]
