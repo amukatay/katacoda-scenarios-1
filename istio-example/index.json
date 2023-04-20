@@ -33,7 +33,7 @@
         "uisettings": "py",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
-    "backend": {
-      "imageids": "k3s-istio:1.10.1"
+    "backends": {
+      "imageid": "k3s-istio:1.10.1"
     }
 }
