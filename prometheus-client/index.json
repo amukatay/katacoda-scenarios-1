@@ -62,7 +62,7 @@
       "clusterRoleNameForBinding": "admin",
       "projects": [
         {
-          "name": 123,
+          "name": "infra",
           "displayName": "infra",
           "description": "This is project for exercise dependencies workloads"
         },
@@ -70,7 +70,7 @@
           "name": "adm",
           "displayName": "adm",
           "description": "This is project for demo adm privs on ui",
-          "uiRole": "admin"
+          "uiRole": 123
         },
         {
           "name": "work",
