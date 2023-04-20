@@ -5,16 +5,7 @@
     "difficulty": "123",
     "time": "123",
     "details": {
-        "steps": [
-            {
-                "title": "123",
-                "text": "step0.md"
-            },
-            {
-                "title": "Создаем объекты istio и получаем доступ к интерфейсу",
-                "text": "step1.md"
-            }
-        ],
+        "steps": "123",
         "intro": {
           "text": "intro.md"
         },
