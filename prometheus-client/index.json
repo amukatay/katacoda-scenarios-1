@@ -59,7 +59,7 @@
     "openShift": {
       "enable": true,
       "serviceAccountNameInProject": "student",
-      "clusterRoleNameForBinding": admin,
+      "clusterRoleNameForBinding": 1,
       "projects": [
         {
           "name": "infra",
