@@ -1,6 +1,6 @@
 package sbercode
 
-allow[msg] 
+allow[msg] {
 	res := input.results[_]
 	res.httpbin_200_get == "200"
 	msg := "[OK] сервис httpbin доступен через api gateway без авторизации. Endpoint /get, тип запроса GET"
