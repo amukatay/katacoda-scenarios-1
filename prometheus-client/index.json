@@ -58,8 +58,8 @@
     "imageid": "openshift-client",
     "openShift": {
       "enable": true,
-      "serviceAccountNameInProject": "student",
-      "clusterRoleNameForBinding": "admin",
+      "serviceAccountNameInProjects": "student",
+      "clusterRoleNameForBindings": "admin",
       "projects": [
         {
           "names": "infra",
