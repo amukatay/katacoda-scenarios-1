@@ -78,8 +78,8 @@
           "description": "This is project for exercise workloads",
           "uiRole": "view",
           "inServiceMeshControlPlane": {
-              "names": "basic",
-              "namespaces": "istio-system"
+              "name": "basic",
+              "namespace": "istio-system"
           }
         }
       ]
