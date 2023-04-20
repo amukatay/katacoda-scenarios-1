@@ -24,7 +24,7 @@
             "text": "finish.md"
         }
     },
-    "files": [
+    "file": [
         "istio-gateway.yaml"
     ],
     "environment": {
