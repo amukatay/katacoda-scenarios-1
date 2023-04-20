@@ -35,8 +35,8 @@
     },
     "load": [
         {
-            "authors": "abermukatay",
-            "scenario": "istio-example"
+            "author": "abermukatay",
+            "scenarios": "istio-example"
         }
     ],
     "save": true,
