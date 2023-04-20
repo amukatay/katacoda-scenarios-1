@@ -39,7 +39,7 @@
             "scenario": "istio-example"
         }
     ],
-    "save": true,
+    "save": "123",
     "backend": {
       "imageid": "k3s-istio:1.10.1"
     }
