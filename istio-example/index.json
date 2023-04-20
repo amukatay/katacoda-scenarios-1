@@ -27,7 +27,7 @@
         "istio-gateway.yaml"
     ],
     "environment": {
-        "showdashboard": true,
+        "showdashboard": "false",
         "dashboards": [{"name": "Prometheus", "port": 80}],
         "uilayout": "editor-terminal",
         "uisettings": "py",
