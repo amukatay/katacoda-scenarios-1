@@ -62,7 +62,7 @@
       "clusterRoleNameForBinding": "admin",
       "projects": [
         {
-          "names": "infra",
+          "name": "infra",
           "displayName": "infra",
           "description": "This is project for exercise dependencies workloads"
         },
