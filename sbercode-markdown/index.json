@@ -21,7 +21,7 @@
         },
         "assets": {
             "host01": [
-                {"file": true, "target": "/root"}
+                {"file": "server.go", "target": "/root"}
             ]
         }
     },
