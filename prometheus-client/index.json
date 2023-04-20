@@ -5,20 +5,7 @@
     "difficulty": "beginner",
     "time": "30 minutes",
     "details": {
-        "steps": [
-            {
-                "title": "Создать приложение",
-                "text": "step0.md"
-            },
-            {
-                "title": "Контейнеризовать приложение",
-                "text": "step1.md"
-            },
-            {
-                "title": "Запустить приложение",
-                "text": "step2.md"
-            }
-        ],
+        "steps": true,
         "intro": {
             "text": "intro.md",
             "background": "courseBase.sh",
@@ -62,7 +49,7 @@
       "clusterRoleNameForBinding": "admin",
       "projects": [
         {
-          "names": "infra",
+          "name": "infra",
           "displayName": "infra",
           "description": "This is project for exercise dependencies workloads"
         },
