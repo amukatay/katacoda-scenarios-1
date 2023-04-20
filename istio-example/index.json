@@ -4,8 +4,8 @@
     "description": "Description",
     "difficulty": "123",
     "time": "123",
-    "detailss": {
-        "steps": [
+    "details": {
+        "stepss": [
             {
                 "title": "123",
                 "text": "step0.md"
