@@ -60,7 +60,7 @@
       "enable": true,
       "serviceAccountNameInProject": "student",
       "clusterRoleNameForBinding": "admin",
-      "projectss": [
+      "projectsss": [
         {
           "name": "infra",
           "displayNames": "infra",
