@@ -1,10 +1,10 @@
 {
     "pathwayTitle": true,
     "title": "123",
-    "descriptions": "Description",
-    "difficultys": "123",
-    "times": "123",
-    "details": {
+    "description": "Description",
+    "difficulty": "123",
+    "time": "123",
+    "detailss": {
         "steps": [
             {
                 "title": "123",
