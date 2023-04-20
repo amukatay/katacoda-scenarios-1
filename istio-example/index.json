@@ -33,13 +33,6 @@
         "uisettings": "py",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
-    "load": [
-        {
-            "author": "abermukatay",
-            "scenario": "istio-example"
-        }
-    ],
-    "save": true,
     "backend": {
       "imageid": "k3s-istio:1.10.1"
     }
