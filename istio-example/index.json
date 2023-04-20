@@ -16,17 +16,11 @@
             }
         ],
         "intro": {
-          "text": "intro.md"
+            "text": "intro.md"
         },
-        "assets": { },
-        "finish": {
-            "text": "finish0.md",
-            }
         "assets": {
             "host01": [
-                {"file": "httpbin.yaml", "target": "/root"},
-                {"file": "httpbin-openapi.yaml", "target": "/root"},
-                {"file": "prepare.sh", "target": "/usr/local/bin", "chmod": "+x"}
+                {"file": "server.go", "target": "/root"}
             ]
         }
     },
