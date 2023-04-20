@@ -5,10 +5,10 @@
     "difficulty": "123",
     "time": "123",
     "details": {
-        "stepss": [
+        "steps": [
             {
-                "title": "123",
-                "text": "step0.md"
+                "titles": "123",
+                "texts": "step0.md"
             },
             {
                 "title": "Создаем объекты istio и получаем доступ к интерфейсу",
