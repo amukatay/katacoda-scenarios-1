@@ -5,7 +5,16 @@
     "difficulty": "123",
     "time": "123",
     "details": {
-        "steps": "123",
+        "steps": [
+            {
+                "title": "Cоздаем объекты кубернетис и запускаем prometheus",
+                "text": "step0.md"
+            },
+            {
+                "title": "Создаем объекты istio и получаем доступ к интерфейсу",
+                "text": "step1.md"
+            }
+        ],
         "intro": {
           "text": "intro.md"
         },
