@@ -1,6 +1,6 @@
 {
     "pathwayTitle": true,
-    "title": "",
+    "title": true,
     "description": "Description",
     "difficulty": "123",
     "time": "123",
