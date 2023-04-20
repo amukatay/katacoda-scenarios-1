@@ -35,11 +35,11 @@
     },
     "load": [
         {
-            "author": "abermukatay",
+            "authors": "abermukatay",
             "scenario": "istio-example"
         }
     ],
-    "save": "123",
+    "save": true,
     "backend": {
       "imageid": "k3s-istio:1.10.1"
     }
