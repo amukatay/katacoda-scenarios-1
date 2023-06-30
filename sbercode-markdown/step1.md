@@ -1,4 +1,4 @@
-<upload-file path="/root/upload.txt"/>
+<upload-file path="/root/file.txt"/>
 
 
 
