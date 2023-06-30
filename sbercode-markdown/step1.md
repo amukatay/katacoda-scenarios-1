@@ -1,6 +1,22 @@
 <upload-file path="/root/file.txt"/>
 
 
+<upload-file path="/root/upload"/>
+
+
+<upload-file path="./root/upload.txt"/>
+
+
+<upload-file path="./upload.txt"/>
+
+
+<upload-file path="/123/upload.txt"/>
+
+
+<upload-file path="/bin/upload.txt"/>
+
+
+<upload-file path="/root/1/upload.txt"/>
 
 
 
