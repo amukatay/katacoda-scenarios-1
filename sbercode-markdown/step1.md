@@ -1,13 +1,27 @@
 <upload-file path="/root/upload.txt"/>
+
+
 <upload-file path="/root/upload"/>
+
+
 <upload-file path="./root/upload.txt"/>
+
+
 <upload-file path="./upload.txt"/>
+
+
 <upload-file path="/123/upload.txt"/>
+
+
 <upload-file path="/bin/1/upload.txt"/>
+
+
 <upload-file path="/root/1/upload.txt"/>
 
 
 При работе с редактором вы можете заменять полностью или частично текст в файле, а также вставлять текст в начало или конец файла.
+
+<upload-file path="/root/upload"/>
 
 Функция замены всего текста в файле (Если файл пустой, то текст просто вставится):
 
