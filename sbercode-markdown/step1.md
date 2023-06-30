@@ -13,7 +13,7 @@
 <upload-file path="/123/upload.txt"/>
 
 
-<upload-file path="/bin/1/upload.txt"/>
+<upload-file path="/bin/upload.txt"/>
 
 
 <upload-file path="/root/1/upload.txt"/>
