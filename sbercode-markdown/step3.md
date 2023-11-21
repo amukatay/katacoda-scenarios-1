@@ -29,6 +29,15 @@ Sbercode может сформировать ссылку для сайтов, �
 
 Cформируем ссылку на [сайт](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/).
 
+Тест прямой ссылки <a href="https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)" target="_blank">сайт</a>
+
+Тест прямой ссылки с сабдоменом ([[UUID_SUBDOMAIN]]-80-[[HOST]]/) <a href="[[UUID_SUBDOMAIN]]-80-[[HOST]]/" target="_blank">здесь</a>
+
+Тест прямой ссылки с сабдоменом с сабурлом ([[UUID_SUBDOMAIN]]-80-[[HOST]]/ui/here) <a href="[[UUID_SUBDOMAIN]]-80-[[HOST]]/ui/here" target="_blank">здесь</a>
+
+Тест2 прямой ссылки с сабдоменом ([[UUID_SUBDOMAIN]]-80-[[HOST]]/) <a href="https://[[UUID_SUBDOMAIN]]-80-[[HOST]]/" target="_blank">здесь</a>
+
+Тест2 прямой ссылки с сабдоменом с сабурлом ([[UUID_SUBDOMAIN]]-80-[[HOST]]/ui/here) <a href="https://[[UUID_SUBDOMAIN]]-80-[[HOST]]/ui/here" target="_blank">здесь</a>
 
 Markdown, адрес является статичным:
 <pre>
