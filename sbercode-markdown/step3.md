@@ -35,10 +35,6 @@ Cформируем ссылку на [сайт](https://[[HOST_SUBDOMAIN]]-80-[
 
 Тест прямой ссылки с сабдоменом с сабурлом <a href="[[UUID_SUBDOMAIN]]-81-[[HOST]]/ui/here" target="_blank">здесь</a>
 
-Тест2 прямой ссылки с сабдоменом <a href="https://[[UUID_SUBDOMAIN]]-82-[[HOST]]/" target="_blank">здесь</a>
-
-Тест2 прямой ссылки с сабдоменом с сабурлом <a href="https://[[UUID_SUBDOMAIN]]-82-[[HOST]]/ui/here" target="_blank">здесь</a>
-
 Markdown, адрес является статичным:
 <pre>
 [сайт](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)
