@@ -29,7 +29,7 @@ Sbercode может сформировать ссылку для сайтов, �
 
 Cформируем ссылку на [сайт](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/).
 
-Тест прямой ссылки <a href="https://[[HOST_SUBDOMAIN]]-8182-[[KATACODA_HOST]].environments.katacoda.com/)" target="_blank">сайт</a>
+Тест прямой ссылки <a href="https://[[HOST_SUBDOMAIN]]-81-[[KATACODA_HOST]].environments.katacoda.com/)" target="_blank">сайт</a>
 
 Тест прямой ссылки с сабдоменом <a href="[[UUID_SUBDOMAIN]]-81-[[HOST]]/" target="_blank">здесь</a>
 
