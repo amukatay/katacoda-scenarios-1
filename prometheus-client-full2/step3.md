@@ -7,8 +7,6 @@ load.sh```{{execute}}
 
 Можем увидеть, что как выглядят на самом деле наши метрики. 
 
-![App_](./assets/katacoda_promql_app_.png)
-
 Если мы введем метрику в Execute, то тогда мы увидим все временные ряды, которые есть в этой метрике.
 
 ![App_](./assets/katacoda_promql_metric.png)
