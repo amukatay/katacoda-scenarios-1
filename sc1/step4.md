@@ -2,7 +2,7 @@
 
 Схема создаваемой конфигурации сети:
 
-![Mesh configuration](../assets/scheme1-b.png)
+![Mesh configuration](./assets/scheme1-b.png)
 
 Мы применим манифест Deploymnet на основе чего будет запущен под, содержащий бизнес-сервис.
 
