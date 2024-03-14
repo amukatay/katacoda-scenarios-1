@@ -9,7 +9,7 @@
             {
                 "title": "Создаем и запускаем pod",
                 "text": "step0.md",
-                "checkPolicyName": "finish"
+                "checkPolicyName": "finish2"
             },
 			{
                 "title": "Работа с файловым редактором",
