@@ -24,18 +24,12 @@
         },
         "assets": {
             "host01": [
-                {"file": "pod.yaml", "target": "/root/"},
-                {"file": "replicaset.yaml", "target": "/root/"},
-                {"file": "deployment.yaml", "target": "/root/"},
-                {"file": "service.yaml", "target": "/root/"},
-                {"file": "deployment-v2.yaml", "target": "/root/"},
-                {"file": "deployment-probes.yaml", "target": "/root/"}
+                {"file": "launch_k8s.sh", "target": "/root", "chmod": "+x"}
             ]
         }
     },
     "files": [
-        "pod.yaml",
-        "replicaset.yaml"
+        "pod.yaml"
     ],
     "environment": {
         "uilayout": "terminal",
