@@ -10,11 +10,13 @@
             },
             {
                 "title": "Другие возможности SberCode",
-                "text": "step2.md"
+                "text": "step2.md",
+                "checkPolicyName":"checkFile2"
             },
             {
                 "title": "Работа с URL",
-                "text": "step3.md"
+                "text": "step3.md"",
+                "checkPolicyName":"checkFile1"
             }
         ],
         "intro": {
