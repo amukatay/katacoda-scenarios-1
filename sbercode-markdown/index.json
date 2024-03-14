@@ -6,7 +6,7 @@
             {
                 "title": "Работа с файловым редактором",
                 "text": "step1.md",
-                "checkPolicyName":"checkFile1"
+                "checkPolicyName":"checkFile"
             },
             {
                 "title": "Другие возможности SberCode",
@@ -15,8 +15,7 @@
             },
             {
                 "title": "Работа с URL",
-                "text": "step3.md",
-                "checkPolicyName":"checkFile1"
+                "text": "step3.md"
             }
         ],
         "intro": {
