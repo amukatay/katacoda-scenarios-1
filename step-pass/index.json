@@ -8,7 +8,12 @@
         "steps": [
             {
                 "title": "Создаем и запускаем pod",
-                "text": "step0.md"
+                "text": "step0.md",
+				"checkPolicyName": "finish"
+            },
+			{
+                "title": "Работа с файловым редактором",
+                "text": "step1.md"
             }
         ],
         "intro": {
@@ -39,6 +44,7 @@
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
         "uimessage2": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
+	"save": true,
     "backend": {
         "imageid": "kubernetes-cluster-running:1.18"
     }
