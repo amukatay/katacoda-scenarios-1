@@ -5,8 +5,7 @@
         "steps": [
             {
                 "title": "Работа с файловым редактором",
-                "text": "step1.md",
-                "checkPolicyName":"checkFile"
+                "text": "step1.md"
             },
             {
                 "title": "Другие возможности SberCode",
