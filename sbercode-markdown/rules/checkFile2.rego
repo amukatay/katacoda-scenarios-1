@@ -12,11 +12,11 @@ allow[msg] {
 	msg := "[OK] файл присутствует"
 }
 
-deny[msg] {
+error[msg] {
 	ok == false
 	msg := "[ERROR] файла нет"
 }
 
-error[msg] {
+deny[msg] {
 	msg := input.error
 }
