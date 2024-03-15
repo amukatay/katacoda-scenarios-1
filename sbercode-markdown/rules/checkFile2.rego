@@ -8,7 +8,7 @@ ok = true {
 }
 
 allow[msg] {
-	ok
+	ok == false
 	msg := "[OK] файл присутствует"
 }
 
