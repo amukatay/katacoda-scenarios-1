@@ -8,11 +8,14 @@
         "steps": [
             {
                 "title": "Создаем и запускаем сервис",
-                "text": "step0.md"
+                "text": "step0.md",
+                "openFile": "/root/app/app.py"
             },
             {
                 "title": "Запускаем прометеус",
-                "text": "step1.md"
+                "text": "step1.md",
+                "openFile": "/root/app/pip.conf",
+                "cmd": "/bin/top"
             },
             {
                 "title": "Инструментируем сервис",
@@ -24,7 +27,8 @@
             },
             {
                 "title": "Задание",
-                "text": "step4.md"
+                "text": "step4.md",
+                "cmd": "cat /root/results.txt"
             }
         ],
         "intro": {
@@ -58,7 +62,7 @@
     "environment": {
         "showdashboard": true,
         "dashboards": [{"name": "Prometheus", "port": 9090}],
-        "uilayout": "editor-terminal",
+        "uilayout": "LAYOUT_TYPE_SIMPLE",
         "uisettings": "py",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
     },
