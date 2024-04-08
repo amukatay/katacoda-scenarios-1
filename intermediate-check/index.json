@@ -4,12 +4,12 @@
     "details": {
         "steps": [
             {
-                "title": "Проверка на промежуточном шаге",
+                "title": "Как сделать промежуточную проверку",
                 "text": "step0.md",
                 "checkPolicyName": "checkfile"
             },
 			{
-                "title": "Завершение задания",
+                "title": "Последний шаг",
                 "text": "step1.md"
             }
         ],
