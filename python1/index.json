@@ -13,7 +13,6 @@
                 "openFile": "/root/step0.py",
                 "cmd": "python3 step0.py"
             },
-            },
             {
                 "title": "Задание 2",
                 "text": "step1.md", 
