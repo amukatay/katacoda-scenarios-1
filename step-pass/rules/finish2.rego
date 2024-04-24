@@ -25,10 +25,30 @@ deny[msg] {
 
 deny[msg] {  
   count(pod_list) = 0
-  msg := "Error. Pod created3"
+  msg := "*Error*. **Pod** ***created3***"
+}
+
+deny[msg] {  
+  count(pod_list) = 0
+  msg := "_Error_. __Pod__ ___created3___"
+}
+
+deny[msg] {  
+  count(pod_list) = 0
+  msg := "[Яндекс](https://ya.ru "Проверка всплывашки")"
+}
+
+deny[msg] {  
+  count(pod_list) = 0
+  msg := "Error.\ Pod<br> created3"
+}
+
+deny[msg] {  
+  count(pod_list) = 0
+  msg := "# Error. Pod created3"
 }
 
 error[msg] {  
-  count(pod_list) = 0
+  count(pod_list) < 0
   msg := "https://www.google2.ru/"
 }
