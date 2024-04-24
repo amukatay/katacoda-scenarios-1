@@ -35,12 +35,12 @@ deny[msg] {
 
 deny[msg] {  
   count(pod_list) = 0
-  msg := "[Яндекс](https://ya.ru "Проверка всплывашки")"
+  msg := "[Яндекс](https://ya.ru \"Всплывашка\")"
 }
 
 deny[msg] {  
   count(pod_list) = 0
-  msg := "Error. Pod<br> created3"
+  msg := "Error.\\ Pod<br> created3"
 }
 
 deny[msg] {  
