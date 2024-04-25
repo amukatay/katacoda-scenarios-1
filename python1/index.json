@@ -66,6 +66,11 @@
     },
 	"layoutType": "LAYOUT_TYPE_SIMPLE",
     "backend": {
-      "imageid": "ubuntu:2004"
+      "imageid": "ubuntu:2004",
+        "userid": 1000,
+        "groupid": 1002,
+        "envs": [
+            {"name": "HOME", "value": "/home/ubuntu"},
+            {"name": "USER", "value": "ubuntu"}
     }
 }
