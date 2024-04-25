@@ -72,5 +72,6 @@
         "envs": [
             {"name": "HOME", "value": "/home/ubuntu"},
             {"name": "USER", "value": "ubuntu"}
+		        ]
     }
 }
