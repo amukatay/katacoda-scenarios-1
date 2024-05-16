@@ -70,7 +70,7 @@ trusted-host = nexus
 
 С помощью команды docker build собираем локальный образ с меткой app:v1. Докер образ будет хранится локально.
 
-<code-to-term-sync cmd="docker build --network=host -t app:v1 app/" unlock="" />
+<code-to-term-sync cmd="docker build --network=host -t app:v1 app/" />
 
 ```
 docker build --network=host -t app:v1 app/
