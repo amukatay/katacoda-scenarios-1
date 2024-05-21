@@ -1,5 +1,7 @@
 Постройте график RPS (количество запросов в секунду) и введите получившееся среднее значение rps на метод /probe в целых числах в файл results.txt
 
+<code-to-term-sync cmd="docker build --network=host -t app:v1 app/" unlock="Successfully tagged app"/>
+
 Постройте график времени ответа сервиса для метода /probe и введите среднее значение квантиля 0.9 (НЕ МЕДИАННОЕ) в миллисекундах в файл results.txt
 
 <pre class="file" data-filename="results.txt" data-target="replace">
