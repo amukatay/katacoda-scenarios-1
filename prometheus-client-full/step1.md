@@ -7,7 +7,7 @@
 
 Prometheus написан на go и распространяется в виде бинарного запускаемого файла. Чтобы запустить Prometheus достаточно запустить исполняемый файл и передать ему конфигурацию. 
 
-<code-to-term-sync cmd="docker build --network=host -t app:v1 app/" unlock="Successfully tagged app"/>
+<code-to-term-sync cmd="docker build --network=host -t app:v1 app/" unlock="~#"/>
 
 Минимальный конфиг для Prometheus-а представляется собой файл в формате yaml. И в файле есть две секции: global - для глобальных настроек и scrape_configs - конфиги скрапинга. 
 
