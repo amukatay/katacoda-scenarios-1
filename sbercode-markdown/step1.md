@@ -139,3 +139,12 @@
 
 Markdown для открытия файла:
 <pre>`file2.txt`{{open}}</pre>
+
+<details>
+<summary>Тест внутри</summary>
+
+* *италик2*
+* **жирный2**
+* ***жирный италик2***
+* 
+</details>
