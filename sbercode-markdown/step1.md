@@ -7,7 +7,7 @@
 </pre>
 
 
-<details>
+<details open>
 <summary>Тест</summary>
   
 * *италик*
@@ -17,7 +17,6 @@
 </details>
 
 <details>
-<summary></summary>
   
 * *италик*
 * **жирный**
