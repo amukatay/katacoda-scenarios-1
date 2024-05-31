@@ -9,15 +9,13 @@
 
 <details>
 <summary>Тест</summary>
-
 * *италик*
 * **жирный**
 * ***жирный италик***
-
 </details>
 
 <details>
-<summary></summary>
+<summary>1</summary>
 * *италик*
 * **жирный**
 * ***жирный италик***
