@@ -17,13 +17,15 @@
 </details>
 
 <details>
-
-<details>
+<summary>Тест2</summary>
   
+<details>
+<summary>Тест внутри</summary>
+
 * *италик2*
 * **жирный2**
 * ***жирный италик2***
-  
+* 
 </details>
   
 * *италик*
