@@ -50,8 +50,8 @@
 <details>
 <summary>Тест5</summary>
   
-- First item
-- Second item
+- [сайт]([[UUID_SUBDOMAIN]]-80-[[HOST]]/)
+- <a href="https://sberbank-school.ru" target="_blank">СберУниверситет</a>
 - https://github.com/amukatay/katacoda-scenarios-1
 - [Fourth item ](https://github.com/amukatay/katacoda-scenarios-1)
   
