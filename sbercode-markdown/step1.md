@@ -52,8 +52,8 @@
   
 - First item
 - Second item
-- Third item
-- Fourth item 
+- https://github.com/amukatay/katacoda-scenarios-1
+- [Fourth item ](https://github.com/amukatay/katacoda-scenarios-1)
   
 </details>
 
@@ -65,6 +65,7 @@
 - Third item
     - Indented item
     - Indented item
+        - Indented item in item
 - Fourth item 
   
 </details>
