@@ -29,7 +29,11 @@
 <summary>Тест3</summary>
   
 * Так выглядит Markdown для замены всего текста в файле, это поведение определеяется маркером data-target="replace":
-* Функция вставки текста в начало файла:
+  
+<pre class="file" data-filename="file.txt" data-target="replace">Замена всего текста в файле
+Это еще одна строка
+</pre>
+
 * &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;append&#x22;&#x3E;Вставка текста в конец файла &#x3C;/pre&#x3E;
 * *италик*
 * **жирный**
