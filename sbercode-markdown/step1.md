@@ -9,12 +9,48 @@
 #### Example
 
 <details>
-<summary>Shopping list</summary>
+<summary>*Тест*</summary>
 
-* Vegetables
-* Fruits
-* Fish
+* *италик*
+* **жирный**
+* ***жирный италик***
 
+</details>
+
+<details>
+<summary>Тест2</summary>
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item 
+</details>
+
+<details>
+<summary></summary>
+* Так выглядит Markdown для замены всего текста в файле, это поведение определеяется маркером data-target="replace":
+* Функция вставки текста в начало файла:
+* &#x3C;pre class=&#x22;file&#x22; data-filename=&#x22;file.txt&#x22; data-target=&#x22;append&#x22;&#x3E;Вставка текста в конец файла
+&#x3C;/pre&#x3E;
+</details>
+
+<details>
+<summary>Тест4</summary>
+- First item
+- Second item
+- Third item
+- Fourth item 
+</details>
+
+
+
+<details>
+<summary>Тест5</summary>
++ First item
++ Second item
++ Third item
++ Fourth item 
 </details>
 
 Так выглядит Markdown для замены всего текста в файле, это поведение определеяется маркером data-target="replace":
