@@ -6,6 +6,16 @@
 Это еще одна строка
 </pre>
 
+#### Example
+
+<details>
+<summary>Shopping list</summary>
+
+* Vegetables
+* Fruits
+* Fish
+
+</details>
 
 Так выглядит Markdown для замены всего текста в файле, это поведение определеяется маркером data-target="replace":
 
