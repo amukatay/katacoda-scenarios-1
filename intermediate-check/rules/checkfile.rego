@@ -42,11 +42,11 @@ deny[msg] {
 
 deny[msg] {
 	ok == false
-	msg := sprintf("Данный код не работает:\n\n\n```\n%s\n```\n", [`
-	printf('hello world1')
-	printf('hello world2')
-	printf('hello world3')
-	printf('hello world4')
+	msg := sprintf("Данный код не работает:\n```\n%s\n```\n", [`
+printf('hello world1')
+printf('hello world2')
+printf('hello world3')
+printf('hello world4')
 `])
 }
 
