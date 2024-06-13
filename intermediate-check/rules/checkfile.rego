@@ -38,6 +38,16 @@ deny[msg] {
 	msg := sprintf("```\n%s\n```\n", ["printf('hello world')"])
 }
 
+deny[msg] {
+	ok == false
+	msg := sprintf("Данный код не работает:```\n%s\n```\n", [`
+	printf('hello world1')
+	printf('hello world2')
+	printf('hello world3')
+	printf('hello world4')
+`])
+}
+
 error[msg] {
 	msg := input.error
 }
