@@ -35,13 +35,7 @@ deny[msg] {
 
 deny[msg] {
 	ok == false
-	msg := `
-
-```
-print('hello world') 
-```
-
-`
+	msg := sprintf("```\n%s\n```\n", ["printf('hello world')"])
 }
 
 error[msg] {
