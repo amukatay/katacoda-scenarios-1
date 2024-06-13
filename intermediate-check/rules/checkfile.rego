@@ -33,6 +33,15 @@ deny[msg] {
 `
 }
 
+deny[msg] {
+	ok == false
+	msg := `
+```
+print('hello world') 
+```
+`
+}
+
 error[msg] {
 	msg := input.error
 }
