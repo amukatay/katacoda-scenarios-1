@@ -52,7 +52,7 @@ error[msg] {
 
 deny[msg] {
 	ok == false
-	msg := `    lin 1 of code
+	msg := `   line 1 of code
     	lin 2 of code
     		lin 3 of code`
 }
