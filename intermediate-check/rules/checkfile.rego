@@ -55,7 +55,7 @@ deny[msg] {
 	msg := `
 ## Code
 
-Inline `code`
+Inline code
 
 Indented code
 
