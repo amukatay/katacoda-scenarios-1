@@ -1,27 +1,29 @@
-<upload-file path="/root/file.txt"/>
+/root/file.jpg
+<upload-file path="/root/file.jpg"/>
 
+/root/file.jpeg
+<upload-file path="/root/file.jpeg"/>
 
-<upload-file path="/root/upload"/>
+/root/file.png
+<upload-file path="/root/file.png"/>
 
+/root/file2.jpg
+<upload-file path="/root/file2.jpg"/>
 
-<upload-file path="./root/upload.txt"/>
+/root/file2.jpeg
+<upload-file path="/root/file2.jpeg"/>
 
+/root/file2.png
+<upload-file path="/root/file2.png"/>
 
-<upload-file path="./upload.txt"/>
+/root/1/file.jpg
+<upload-file path="/root/1/file.jpg"/>
 
+/usr/file.jpg
+<upload-file path="/usr/file.jpg"/>
 
-<upload-file path="/123/upload.txt"/>
-
-
-<upload-file path="/bin/upload.txt"/>
-
-
-<upload-file path="/root/1/upload.txt"/>
-
-
-<upload-file path="/root/uploadfolder/"/>
-
-4
+/usr/file3.jpg
+<upload-file path="/usr/file3.jpg"/>
 
 При работе с редактором вы можете заменять полностью или частично текст в файле, а также вставлять текст в начало или конец файла.
 
