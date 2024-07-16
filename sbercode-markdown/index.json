@@ -21,17 +21,7 @@
         },
         "assets": {
             "host01": [
-                {"file": "Example.jpg", "target": "/root"},
-                {"file": "big.jpg", "target": "/root"},
-                {"file": "big_png.PNG", "target": "/root"},
-                {"file": "small_png.png", "target": "/root"},
-                {"file": "test.jpeg", "target": "/root"},
-                {"file": "test.jpg", "target": "/root"},
-                {"file": "test2.png", "target": "/root"},
-                {"file": "wrong.jpg", "target": "/root"},
-                {"file": "wrong.png", "target": "/root"},
-                {"file": "file2.jpg", "target": "/root"},
-                {"file": "test2.jpg", "target": "/root/2"}
+                {"file": "server.go", "target": "/root"}
             ]
         }
     },
