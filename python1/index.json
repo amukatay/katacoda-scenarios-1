@@ -66,6 +66,6 @@
     },
 	"layoutType": "LAYOUT_TYPE_SIMPLE",
     "backend": {
-      "imageid": "ubuntu:2004"
+      "imageid": "python"
     }
 }
