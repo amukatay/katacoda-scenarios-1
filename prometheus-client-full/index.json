@@ -19,12 +19,12 @@
             },
             {
                 "title": "Инструментируем сервис",
-                "text": "step2.md",
-                "openFile": "/root/app/pip.conf"
+                "text": "step2.md"
             },
             {
                 "title": "Нагружаем сервис и смотрим метрики",
-                "text": "step3.md"
+                "text": "step3.md",
+                "openFile": "/root/app/pip.conf"
             },
             {
                 "title": "Задание",
