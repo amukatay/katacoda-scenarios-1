@@ -24,7 +24,7 @@
             {
                 "title": "Нагружаем сервис и смотрим метрики",
                 "text": "step3.md",
-                "openFile": "/root/app/app.py",
+                "openFile": "/root/app/app.py"
             },
             {
                 "title": "Задание",
