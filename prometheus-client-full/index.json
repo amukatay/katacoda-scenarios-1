@@ -2,6 +2,7 @@
     "pathwayTitle": "Prometheus Full",
     "title": "Prometheus Full",
     "description": "Prometheus Full",
+    "idleSessionTimeoutMins": 10,
     "difficulty": "beginner",
     "time": "30 minutes",
     "details": {
