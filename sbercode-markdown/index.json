@@ -21,17 +21,17 @@
         },
         "assets": {
             "host01": [
-                {"file": "Example.jpg", "target": "/root"},
-                {"file": "big.jpg", "target": "/root"},
-                {"file": "big_png.PNG", "target": "/root"},
+                {"file": "Example.jpg", "target": "/root", "binary": true},
+                {"file": "big.jpg", "target": "/root", "binary": true},
+                {"file": "big_png.PNG", "target": "/root", "binary": true},
                 {"file": "small_png.png", "target": "/root"},
-                {"file": "test.jpeg", "target": "/root"},
-                {"file": "test.jpg", "target": "/root"},
-                {"file": "test2.png", "target": "/root"},
-                {"file": "wrong.jpg", "target": "/root"},
-                {"file": "wrong.png", "target": "/root"},
-                {"file": "file2.jpg", "target": "/root"},
-                {"file": "test2.jpg", "target": "/root/2"}
+                {"file": "test.jpeg", "target": "/root", "binary": true},
+                {"file": "test.jpg", "target": "/root", "binary": true},
+                {"file": "test2.png", "target": "/root", "binary": true},
+                {"file": "wrong.jpg", "target": "/root", "binary": true},
+                {"file": "wrong.png", "target": "/root", "binary": true},
+                {"file": "file2.jpg", "target": "/root", "binary": true},
+                {"file": "test2.jpg", "target": "/root/2", "binary": true}
             ]
         }
     },
