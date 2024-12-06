@@ -31,7 +31,7 @@
                 {"file": "wrong.jpg", "target": "/root", "binary": true},
                 {"file": "wrong.png", "target": "/root", "binary": true},
                 {"file": "file2.jpg", "target": "/root", "binary": true},
-                {"file": "test2.jpg", "target": "/root/2", "binary": true}
+                {"file": "test.jpg", "target": "/root/2", "binary": true}
             ]
         }
     },
