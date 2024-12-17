@@ -26,7 +26,7 @@
                 {"file": "big_png.PNG", "target": "/root", "binary": true},
                 {"file": "small_png.png", "target": "/root", "binary": true},
                 {"file": "test.jpeg", "target": "/root", "binary": true},
-                {"file": "test.jpg", "target": "/root", "binary": true}
+                {"file": "test.jpg", "target": "/root", "binary": true},
                 {"file": "test2.png", "target": "/root", "binary": true},
                 {"file": "wrong.jpg", "target": "/root", "binary": true},
                 {"file": "wrong.png", "target": "/root", "binary": true},
