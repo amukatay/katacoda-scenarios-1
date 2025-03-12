@@ -8,23 +8,23 @@
                 "text": "step1.md"
             }
         ]
-        }
-    }
+        },
     "environment": {
         "uilayout": "editor-terminal"
     },
     "backend": {
         "imageid": "ubuntu:2004"
     },
-	"editor-validation": {
-    "yaml": [
-        { 
-         "fileMask": "/root/1/*.yaml", 
-         "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema())" 
-        },
-        {
-         "fileMask": "/root/2/*.yaml", 
-         "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema2())" 
-        }
-    ]
+    "editor-validation": {
+        "yaml": [
+            { 
+             "fileMask": "/root/1/*.yaml", 
+             "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema())" 
+            },
+            {
+             "fileMask": "/root/2/*.yaml", 
+             "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema2())" 
+            }
+        ]
+    }
 }
