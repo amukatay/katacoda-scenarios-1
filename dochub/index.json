@@ -14,7 +14,7 @@
 		{"file": "nginx.conf", "target": "/root"}
             ]
         }
-    }
+    },
     "environment": {
         "uilayout": "editor-terminal"
     },
