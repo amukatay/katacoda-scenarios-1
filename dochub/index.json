@@ -24,7 +24,7 @@
     "editorValidation": {
         "yaml": [
             { 
-             "fileMask": "/root/1/*.yaml", 
+             "fileMask": "*.yaml", 
              "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema())" 
             },
             {
