@@ -15,7 +15,7 @@
     "backend": {
         "imageid": "ubuntu:2004"
     },
-    "editor-validation": {
+    "editorValidation": {
         "yaml": [
             { 
              "fileMask": "/root/1/*.yaml", 
