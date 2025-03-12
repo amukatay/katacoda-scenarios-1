@@ -11,7 +11,7 @@
             "host01": [
                 {"file": "example.env", "target": "/root"},
 				{"file": "nginx.conf", "target": "/root"}
-        ]
+            ]
         },
     "environment": {
         "uilayout": "editor-terminal"
