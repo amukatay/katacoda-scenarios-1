@@ -24,12 +24,16 @@
     "editorValidation": {
         "yaml": [
             { 
-             "fileMask": "*.yaml", 
-             "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema())" 
+             "fileMask": "*.yaml",
+	     "portForwarding": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]",
+             "schemaUrl": "/core/storage/jsonata/($manifestschema())",
+	     "reloadUrl": "/core/storage/reload"
             },
             {
              "fileMask": "/root/2/*.yaml", 
-             "schemaUri": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]/core/storage/jsonata/($manifestschema2())" 
+	     "portForwarding": "[[VALIDATION_SUBDOMAIN]]-8080-[[V_HOST]]",
+             "schemaUrl": "/core/storage/jsonata/($manifestschema2())",
+	     "reloadUrl": "/core/storage/reload2"
             }
         ]
     }
