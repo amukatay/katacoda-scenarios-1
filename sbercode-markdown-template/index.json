@@ -1,0 +1,39 @@
+{
+    "title": "Дополнительные команды Markdown в SberCode",
+    "description": "Дополнительные команды Markdown в SberCode",
+	"details": {
+		"template": true,
+        "steps": [
+            {
+                "title": "Работа с файловым редактором",
+                "text": "step1.md"
+            },
+            {
+                "title": "Другие возможности SberCode",
+                "text": "step2.md"
+            },
+            {
+                "title": "Работа с URL",
+                "text": "step3.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "assets": {
+            "host01": [
+                {"file": "server.go", "target": "/root"}
+            ]
+        }
+    },
+    "files": [
+        "file.txt", "file2.txt"
+    ],
+    "environment": {
+        "uilayout": "editor-terminal",
+        "uisettings": "javascript"
+    },
+    "backend": {
+        "imageid": "golang"
+    }
+}
