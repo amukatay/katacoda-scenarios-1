@@ -9,22 +9,22 @@
             {
                 "title": "Создаем и запускаем сервис",
                 "text": "step0.md",
-                "type:" "infrastructure"
+                "type": "infrastructure"
             },
             {
                 "title": "Запускаем прометеус",
                 "text": "step1.md",
-                "type:" "longread"
+                "type": "longread"
             },
             {
                 "title": "Инструментируем сервис",
                 "text": "step2.md",
-                "type:" "video"
+                "type": "video"
             },
             {
                 "title": "Нагружаем сервис и смотрим метрики",
                 "text": "step3.md",
-                "type:" "audio"
+                "type": "audio"
             },
             {
                 "title": "Задание",
