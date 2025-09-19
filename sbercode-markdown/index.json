@@ -32,7 +32,7 @@
         "uilayout": "editor-terminal",
         "uisettings": "javascript"
     },
-    "tokenLimit": -1,
+    "tokenLimit": 0,
     "backend": {
         "imageid": "golang"
     }
