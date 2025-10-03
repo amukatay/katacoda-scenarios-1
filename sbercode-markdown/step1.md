@@ -6,6 +6,9 @@
 Это еще одна строка
 </pre>
 
+<file-download path="/root/file.txt"/>
+
+<download-file path="/root/server.go"/>
 
 Так выглядит Markdown для замены всего текста в файле, это поведение определеяется маркером data-target="replace":
 
