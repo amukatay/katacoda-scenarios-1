@@ -1,0 +1,23 @@
+{
+    "title": "Использование промежуточных проверок",
+    "description": "Использование промежуточных проверок",
+    "details": {
+        "steps": [
+            {
+                "title": "Как сделать промежуточную проверку",
+                "text": "step0.md",
+                "checkPolicyName": "checkfile"
+            },
+			{
+                "title": "Последний шаг",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        }
+    },
+    "backend": {
+        "imageid": "golang"
+    }
+}
