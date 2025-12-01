@@ -32,7 +32,24 @@
         "uilayout": "editor-terminal",
         "uisettings": "javascript"
     },
-    "backend": {
-        "imageid": "golang"
+     "backend": {
+        "type": "dedicated",
+        "imageid": "test-image-sl96",
+        "userid": 1000,
+        "groupid": 1000,
+        "envs": [
+            {
+                "name": "HOME",
+                "value": "/home/ubuntu"
+            },
+            {
+                "name": "USER",
+                "value": "ubuntu"
+            }
+        ],
+        "dedicated": {
+            "flavorRef": "s6.small.1",
+            "rootVolSize": 40
+        }
     }
 }
