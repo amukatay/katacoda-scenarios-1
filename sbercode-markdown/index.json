@@ -25,9 +25,6 @@
             ]
         }
     },
-    "files": [
-        "file.txt", "file2.txt"
-    ],
     "environment": {
         "uilayout": "editor-terminal",
         "uisettings": "javascript"
