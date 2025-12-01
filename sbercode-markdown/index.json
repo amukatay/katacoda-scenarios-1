@@ -37,7 +37,7 @@
         "imageid": "test-image-sl96",
         "dedicated": {
             "flavorRef": "s6.small.1",
-            "rootVolSize": 40
+            "rootVolSize": 39
         }
     }
 }
