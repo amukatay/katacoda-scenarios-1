@@ -5,15 +5,19 @@
         "steps": [
             {
                 "title": "Работа с файловым редактором",
-                "text": "step1.md"
+                "text": "step1.md",
+                "type": "longread"
             },
             {
                 "title": "Другие возможности SberCode",
-                "text": "step2.md"
+                "text": "step2.md",
+                "type": "video",
+                "openFile": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
             },
             {
                 "title": "Работа с URL",
-                "text": "step3.md"
+                "text": "step3.md",
+                "type": "longread"
             }
         ],
         "intro": {
@@ -33,6 +37,6 @@
         "uisettings": "javascript"
     },
     "backend": {
-        "imageid": "golang"
+        "type": "empty"
     }
 }
