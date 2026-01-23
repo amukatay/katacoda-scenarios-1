@@ -4,16 +4,28 @@
     "details": {
         "steps": [
             {
-                "title": "Работа с файловым редактором",
+                "title": "Введение",
                 "text": "step1.md"
             },
             {
-                "title": "Другие возможности SberCode",
+                "title": "Работа с файловым редактором",
                 "text": "step2.md"
             },
             {
-                "title": "Работа с URL",
+                "title": "Работа с файлами",
                 "text": "step3.md"
+            },
+            {
+                "title": "Изображения, видео, буфер обмена, отправка команд в терминал",
+                "text": "step4.md"
+            },
+            {
+                "title": "Другие возможности SberCode",
+                "text": "step5.md"
+            },
+            {
+                "title": "Работа с URL, Port Forwarding",
+                "text": "step6.md"
             }
         ],
         "intro": {
@@ -21,7 +33,8 @@
         },
         "assets": {
             "host01": [
-                {"file": "server.go", "target": "/root"}
+                {"file": "server.go", "target": "/root"},
+                {"file": "file.jpg", "target": "/root"}
             ]
         }
     },
