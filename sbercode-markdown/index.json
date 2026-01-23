@@ -34,7 +34,7 @@
         "assets": {
             "host01": [
                 {"file": "server.go", "target": "/root"},
-                {"file": "file.jpg", "target": "/root"}
+                {"file": "file.jpg", "target": "/root", "binary": true}
             ]
         }
     },
