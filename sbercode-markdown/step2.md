@@ -2,12 +2,12 @@
 
 Вы можете добавлять картинки в упражнение, для этого нужно положить их в папку assets:
 
-![App_](./assets/Example.jpg)
+![App_](./assets/Example2.png)
 
 Markdown для вставки картинок, в данном случае мы берем файл Example.jpg:
 
 <pre>
-![App_](./assets/Example.jpg)
+![App_](./assets/Example2.png)
 </pre>
   
   
