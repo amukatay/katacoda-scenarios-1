@@ -7,6 +7,8 @@
 Откройте закладку файла app.py в редакторе и введите в него код на Python ниже, либо нажмите кнопку "Copy to Editor". Это основной файл нашего приложения.
 
 <pre class="file" data-filename="./app/app.py" data-target="replace">
+
+    
 import os
 import json
 import random
@@ -37,6 +39,9 @@ def probe():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='8000', debug=True)
+        
+
+
 </pre>
 
 Теперь давайте запустим этот сервис с помощью Docker. Для этого нам понадобится файл с описанием зависимостей для Python и Dockerfile.
