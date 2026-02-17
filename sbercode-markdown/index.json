@@ -51,7 +51,7 @@
       {
         "path": "/root/1/",
         "namespace": "89fea5c1-0659-43ba-80b9-3b7c2ad92b88",
-		"ttlDays": 0
+		"ttlDays": 90
       }
     ],
     "backend": {
