@@ -5,7 +5,9 @@
         "steps": [
             {
                 "title": "Введение",
-                "text": "step1.md"
+                "text": "step1.md",
+          		"checkPolicyName": "finish",
+          		"syncPersistentStorage": true
             },
             {
                 "title": "Работа с файловым редактором",
