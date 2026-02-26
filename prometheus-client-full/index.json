@@ -40,7 +40,15 @@
                 {"file": "verify.py", "target": "/usr/local/bin/", "chmod": "+x"},
                 {"file": "validate.sh", "target": "/usr/local/bin/", "chmod": "+x"},
                 {"file": "load.sh", "target": "/usr/local/bin/", "chmod": "+x"}
-            ]
+            ],
+            "scorms": [
+                {
+                    "name": "Приветик!.zip",
+                    "hash": "2a79190fd16847296a026b34d8ea8936eeb78f15fa3e414fa444b127fd4bc5d0",
+                    "createdAt": "2026-02-18T17:36:36+06:00",
+                    "comment": "Привет2"
+                }
+    ]
         },
         "finish": {
             "text": "finish.md"
