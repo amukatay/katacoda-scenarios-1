@@ -1,6 +1,6 @@
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UsxIDNNIwa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Напишем11 и запустим сервис, который будет эмулировать работу реального приложения. А в следующем шаге инструментируем, чтобы он отдавал метрики для Prometheus.
+Напишем12 и запустим сервис, который будет эмулировать работу реального приложения. А в следующем шаге инструментируем, чтобы он отдавал метрики для Prometheus.
 
 ![App_](./assets/12345.png)
 
